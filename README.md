@@ -38,4 +38,12 @@ google 에 검색 또는 chatGPT 에 검색
     ```
     use single quote defalut need interpolation, multi-line strings use backtick 
 3. HTML CSS JavaScript review script run first , onclick run after comment // /* */ multi-line comment console.log(); console창에 결과를 보내는 방식 js를 확인하는 방법 
-4. 
+4. variable 
+   1. let variable = ; variable을 지정하는 방식 let create new value
+   2. Can't use let ,Can't start with a number, special caharacters except $, _
+   3. semi colon  = end of an instruction
+   4. let을 사용하고 re assigning 할때는 let을 사용하지 않는다. 
+   5. a += 1 python 과 같은 방식으로 작동한다. 
+   6. backtick 과 함께 사용해서 variable을 넣을 수 있다. 
+   7. ++는 +1 과 같다.
+   8. JS는 camelCase를 사용한다. 
