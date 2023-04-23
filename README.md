@@ -69,3 +69,27 @@ google 에 검색 또는 chatGPT 에 검색
    - Return Statement 값을 function에서 내보내는 기능 return 으로 function이 끝난다. 
    - parameter variable과 같은 기능을 한다. default value
    - 반복되는요소는 함수로 바꾸어서 scripts에 쓰면 아주 편하다.
+
+7. Objects
+   - An object groups multiple values together
+   - object는 {}로 묶어서 여러 요소를 담을 수 있다. {Property: value};
+   - object.property에 새로운 요소를 담을 수 있다. 
+   - delete object.property를 통해 property를 제거할 수 있다. 
+   - object 를 통해서 group을 만들 수 있기 때문에 편리하다. 
+   - object['property'] ''을 붙여줘야 한다. 특수문자가 들어간 경우 사용하기 위해서 
+   - object inside object, function inside object === method
+   - console도 object console.log는 function이다.
+   - Built in object JSON JavaScript Object Notation use double quote ""
+   - JSON 다른 language에서도 사용할 수 있다. 컴퓨터간 활용이 가능하다는 장점을 갖는다. 
+   - convert JSON.strigify(); string형태로 바꾸는것  JSON.parse(); Js object 형태로 바꾸는 것 서로 바꿀수 있다. 
+   - localStorage 새로고침하면 모든게 리셋되는데 localStorage를 이용하면 결과가 저장된다. localStorage.setItem('string', 'string')  only support string localStorage에 string형태로 저장한 다음 reset되도 가져올 수 있도록 만든다. variable을 string형태로 넣기 위해서 JSON.stringify()를 쓰고 localStorage.getItem()으로 가져온다음 JSON.parse로 다시 string을 object형태로 바꿀수 있도록 한다. 
+   - reset을 하면 localStorage에 있던 것들도 없어져서 null값이 되므로 null값을 받았을때 값을 조건문으로 넣어주어야 한다. 
+   - null vs undefined null = empty  undefined default
+   - Auto-boxing method :   length, toUpperCase()   string to special object로 number boolean
+   - object reference 위치를 가리키다.   = reference를 가리키므로 copy by reference
+   - const 만들었지만 object 는 reference이므로 새로운 값을 가르키도록 할 수 있다. 
+   - object는 직접 비교할 수 없다 reference이므로 value를 직접 가지는게 아니므로 object1 === object3 ; 는 False로 나온다 
+   -  shortcut destructuring : const message = object4.message; const { message } = object4;
+   -  short hand : const가 같다면 variable을 그대로 쓸 수 있다. method 바로 function을 넣을수 있다. 
+
+8. Documene Object Model(DOM) 
