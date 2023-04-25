@@ -92,4 +92,16 @@ google 에 검색 또는 chatGPT 에 검색
    -  shortcut destructuring : const message = object4.message; const { message } = object4;
    -  short hand : const가 같다면 variable을 그대로 쓸 수 있다. method 바로 function을 넣을수 있다. 
 
-8. Documene Object Model(DOM) 
+8. Documene Object Model(DOM)
+   -  document.body.innerHTML property가 webpage를 바꾸다. 
+   -  document.title 로 title도 바꿀수 있다. document는 web과 연결된것 DOM 이라고 부른다. 
+   -  document.body  HTML element inside JavaScript   document.body 는 object로 취급 innerHTML은 property이므로 HTML을 바꿀수 있다. JS에서 innerHTML을 수정하는것으로도 HTML의 내용을 바꿀수 있다. 새로운 HTML을 넣을 수 있다. 
+   -  document.querySelector() element를 가져온다 button을 가져오면 HTML의 첫번째 button을 JavaScript로 가져온다.
+   -  innerHTML property를 수정하면 또 바꿀 수 있다. 
+   -  첫번째만 가져오기 때문에 class를 설정해주면 된다.  '.'으로 시작하면 element가 아닌 class를 기준으로 찾는다. 
+   -  innerText를 가져오면 좌우 space를 제외하고 가져온다.
+   -  HTML과 JS를 clear code로 짜기 위해서는 js를 function으로 바꾸어 준다.
+   -  paragraph는 한 block을 차지한다. 
+   -  placeholder 빈 상자에 기본입력값  inputElement는 HTML이 안쓰이기 때문에 innerHTML을 안쓴다.
+   -  input으로 넣고 바로 계산하도록 만들려면 onkeydown을 사용한다. event는 key가 입력될때마다 발생한다. 
+   -  Number() 숫자로 바꿔준다. string이 number로만 구성되어있다면 알아서 number로 바꿔준다. 단 +일경우에는  string으로 더해버린다 따라서 JS에서 math를 하지 말것
