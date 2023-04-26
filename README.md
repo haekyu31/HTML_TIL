@@ -105,3 +105,9 @@ google 에 검색 또는 chatGPT 에 검색
    -  placeholder 빈 상자에 기본입력값  inputElement는 HTML이 안쓰이기 때문에 innerHTML을 안쓴다.
    -  input으로 넣고 바로 계산하도록 만들려면 onkeydown을 사용한다. event는 key가 입력될때마다 발생한다. 
    -  Number() 숫자로 바꿔준다. string이 number로만 구성되어있다면 알아서 number로 바꿔준다. 단 +일경우에는  string으로 더해버린다 따라서 JS에서 math를 하지 말것
+
+9. HTML, CSS, and JavaScript Together
+   - CSS Selector 어떤 element에 style을 넣을것인가. button class를 정할수 있다 여러개의 class를 넣을수 있어서 js에서 사용할 class와 CSS에서 사용할 class를 다르게 설정하였다. 
+   - CSS property: value ; 
+   - JS 로 HTML의 변화에 따라서 다른 CSS를 적용하고 싶으면 class를 다르게 만들어야 하는데 classList라는 object를 사용한다. add class 형태, class를 삭제하려면 classList.remove('class')를 사용해서 만들었던 class를 삭제할 수 있다. 
+   - script연결할때는 <scripts src=""> css연결할때는 <link rel="" href="">
