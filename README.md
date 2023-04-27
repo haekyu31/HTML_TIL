@@ -111,3 +111,13 @@ google 에 검색 또는 chatGPT 에 검색
    - CSS property: value ; 
    - JS 로 HTML의 변화에 따라서 다른 CSS를 적용하고 싶으면 class를 다르게 만들어야 하는데 classList라는 object를 사용한다. add class 형태, class를 삭제하려면 classList.remove('class')를 사용해서 만들었던 class를 삭제할 수 있다. 
    - script연결할때는 <scripts src=""> css연결할때는 <link rel="" href="">
+
+10. Arrays and loops
+   - array is object
+   - .length 몇개나 같고 있는가 .push() 추가하기 .splice() index위치에 따라 제거하는방식
+   - textbox 를 리셋하려면 value를 empty로 두면 된다. 
+   - loop 조건문 while () {}  for (1. loop variable; 2. loop condition; 3. increment step;)
+   - standard loop : for,  non-standard loop : while 
+   - array push를 통해 값을 더할 수 있다. 
+   - <div> = container block element document.querySelector('class') 로 찾은 다음에 DOM을 활용하여 innerHTML 에 todoListHTML을 넣으면 된다.
+   - js에서 HTML을 직접 생성해서 넣을 수 있다. 
