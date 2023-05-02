@@ -121,3 +121,15 @@ google 에 검색 또는 chatGPT 에 검색
    - array push를 통해 값을 더할 수 있다. 
    - <div> = container block element document.querySelector('class') 로 찾은 다음에 DOM을 활용하여 innerHTML 에 todoListHTML을 넣으면 된다.
    - js에서 HTML을 직접 생성해서 넣을 수 있다. 
+
+11. Arrays and loops part 2
+    - splice() remove method splice() index로 지울수 있다. index ${}로 가져와서 
+    - splice() 로 지운다음에  list 를 다시 보여주는 방식으로  delete를 구현할 수 있다. 
+    - date selector input type date
+    - deconstructuring object의 property 명과 같은 variable이라면 const {property} = object; 로 쓸 수 있다. 
+    - css grid display: grid; grid-template-columns:
+    - css , 로 multi class 적용이 가능하다. 
+    - align-items: center stretch 늘이기
+    - array는 reference를 가리키는 것일뿐 value를 갖고있는것이 아니다. slice()를 통해 해결가능하다 array값은 갖지만 서로 다른곳을 가리키게 할 수 있다. 
+    - while loop을 돌때 continue를 사용한다면 if 조건에서 탈출하여 돌수 있도록 while 내부에서 변화를 줄수 있도록 해야한다. for loop에서는 자동으로 loop를 벗어난다. 
+    - 
