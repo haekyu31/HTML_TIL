@@ -132,4 +132,11 @@ google 에 검색 또는 chatGPT 에 검색
     - align-items: center stretch 늘이기
     - array는 reference를 가리키는 것일뿐 value를 갖고있는것이 아니다. slice()를 통해 해결가능하다 array값은 갖지만 서로 다른곳을 가리키게 할 수 있다. 
     - while loop을 돌때 continue를 사용한다면 if 조건에서 탈출하여 돌수 있도록 while 내부에서 변화를 줄수 있도록 해야한다. for loop에서는 자동으로 loop를 벗어난다. 
-    - 
+12. Advanced Functions
+    - Anonymous Function : function without a name
+    - Functions are value
+    - setTimeout(); 1. A function we want to run in the future 2. how long to wait before running this function 1000 milliseconds = 1 second
+    - Asynchronous Code setTimeout() won't wait for a line to finish
+    - it doesn't block our code for 3 seconds
+    - setInterval(); 1. A function we want to run in the future, 2. A number in milliseconds  it will keep running the function every 3 seconds
+    - forEach : Array loop, return 으로 continue와 같은 동작을 할 수 있다. break를 사용하는건 for loop을 사용하는것이 더 편리하다.
