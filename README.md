@@ -140,3 +140,44 @@ google 에 검색 또는 chatGPT 에 검색
     - it doesn't block our code for 3 seconds
     - setInterval(); 1. A function we want to run in the future, 2. A number in milliseconds  it will keep running the function every 3 seconds
     - forEach : Array loop, return 으로 continue와 같은 동작을 할 수 있다. break를 사용하는건 for loop을 사용하는것이 더 편리하다.
+
+13. Advanced Functions
+    - Arrow Function mostly works the same as a regular function function 대신 =>를 쓴다는 특징, shortcut
+    ```js
+      const oneParam = param =>{
+            console.log(param + 1);
+      };
+      oneParam(2);
+
+      const oneLine = () => 2 + 3;
+      console.log(oneLine());
+    ```
+    - function 안에 function을 사용할때 ArrowFunction을 사용하는게 좋다.
+    ```js
+    const object2 = {
+            method: () => {
+
+            },
+            method() {
+               
+            }
+      };
+    // short method  
+    ```
+    - addEventListener() lets us run some code when we interact with the element
+    - two parameters 1. event , 2. A function we want to run
+    - multiple event listeners for one event, remove an event listener .removeEventListener()
+    - add로 event 를 여러개 설정할 수도 있고 remove를 통해 제거 할 수도 있다. 
+    - Use .addEventListener() instead of onclick = ''
+    - filter create a nww array return true put value in array
+    - map array를 만들고 return을 array에 더한다
+    ```js
+    console.log([1, 1, 3].map((value, index) => {
+                return value * 2;
+            }));
+
+    console.log([1, 1, 3].map(value => value * 2));
+    ```
+    
+
+    
